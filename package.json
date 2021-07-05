@@ -1,0 +1,19 @@
+{
+  "name": "trabalho_final",
+  "version": "1.0.0",
+  "description": "Trabalho final da Pós- Arquitetura de Software - Node JS- PUC Minas",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "node test.js"
+  },
+  "author": "Matheus Santana",
+  "license": "ISC"
+}
