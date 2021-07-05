@@ -7,8 +7,9 @@ window.onload = function () {
   var closeBtn = document.getElementById("close");
 
   // Cria um novo socket.
-  var port = process.env.PORT
-  var socket = new WebSocket("ws://127.0.0.1:" + port + "/");
+  const HOST = location.origin.replace(/^http/, 'ws')
+  var socket = new WebSocket(HOST);
+  //var socket = new WebSocket("ws://127.0.0.1");
 
 
   // Função para tratar os erros que podem ocorrer
